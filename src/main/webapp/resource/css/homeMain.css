@@ -1,0 +1,350 @@
+/*reset css*/
+body,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,fieldset,form,input{font-size:12px;font-family:dotum;margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+em,address,var{font-style:normal;}
+dl,ul,ol{list-style:none;}
+img,fieldset{border:0;}
+button{margin:0;padding:0;overflow:hidden;cursor:pointer;border:0;}
+legend, caption{overflow:hidden;visibility:hidden;height:0;font-size:0;line-height:0;}
+a { text-decoration:none;} a:hover, a:active, a:focus {text-decoration:underline;}
+.hide{ position:absolute; left:0; top:0; width:1px; height:1px; font-size:0; line-height:0; visibility:hidden;}
+.chk{width:13px;height:13px;margin:0;padding:0;vertical-align:middle}
+
+body{width:100%;text-align:center;background:#E7E7E7;}
+
+/* Layout */
+#MainContent {position:relative;width:100%;text-align:center;}
+.minsize {position:relative;left:0;top:0;; width:100%;height:558px;z-index:1}
+.origin {position:relative;text-align:center;width:100%;z-index:1}
+.container {position:relative;width:990px;height:0;margin:0 auto;text-align:left;z-index:1;display:inline-block}
+.container:after { clear:both; display:block; content:"" }
+.swf_visual {width:100%;height:558px;}
+
+
+
+.menu01 {position:absolute;left:742px;top:-74px;height:11px;}
+.menu01 li {float:left;height:11px;}
+.menu01 li a{height:11px;display:block;background:url(/web/board/game/v/img/main/trans.gif)}
+.menu01 li span{display:none}
+.menu01 .t_charge {display:none}
+.menu01 .t_user {width:35px;}
+.menu01 .t_faq {width:20px;margin-left:20px;}
+.menu01 .t_pc1 {width:58px;margin-left:20px;}
+.menu01 .t_pc2 {width:19px;margin-left:5px;}
+.menu01 .t_pc2 strong {width:19px;height:11px;display:block}
+.menu01 .t_pc2 strong.on {background-position:0 0 !important}
+.menu01 .t_pc2 strong.off {background-position:-19px 0 !important}
+.menu01 .t_pc2 em {display:none}
+
+.menu02 {position:absolute;left:738px;top:-381px;width:252px;height:37px;}
+.menu02 li {float:left;}
+.menu02 li a{height:35px;display:block;}
+.menu02 li a span{display:none}
+.menu02 .t_info {width:82px;}
+.menu02 .t_community {display:none}
+.menu02 .t_rank {width:83px;}
+.menu02 .t_download {width:83px;}
+
+.menu03 {position:absolute;left:742px;top:-533px;height:15px;}
+.menu03 li {float:left;height:15px;}
+.menu03 li a{height:15px;display:block;background:url(/web/board/game/v/img/main/trans.gif)}
+.menu03 li span{display:none}
+.menu03 .g_sachunsung {width:33px;}
+.menu03 .g_yutgame {width:33px;margin-left:8px;}
+.menu03 .g_moma {width:53px;margin-left:9px;}
+.menu03 li.on .g_sachunsung {background-position:0 -15px !important;}
+.menu03 li.on .g_yutgame {background-position:-41px -15px !important;}
+.menu03 li.on .g_moma {background-position:-83px -15px !important;}
+
+.menu04 {position:absolute;left:885px;top:-539px;width:106px;height:27px;z-index:4}
+.menu04 ul{width:106px;height:188px;padding-top:27px;display:none}
+.menu04 p{position:absolute;left:0;top:0;width:106px;height:26px;display:block;cursor:pointer}
+.menu04 p a{display:block;width:106px;height:26px}
+.menu04 li {float:left;width:106px;height:20px;display:block;}
+.menu04 li a{width:106px;height:20px;display:block;background:url(/web/board/game/v/img/main/trans.gif)}
+.menu04 span{display:none}
+.menu04 li.on .g01 {background-position:-220px -27px !important;}
+.menu04 li.on .g02 {background-position:-220px -47px !important;}
+.menu04 li.on .g03 {background-position:-220px -67px !important;}
+.menu04 li.on .g04 {background-position:-220px -87px !important;}
+.menu04 li.on .g05 {background-position:-220px -107px !important;}
+.menu04 li.on .g06 {background-position:-220px -127px !important;}
+.menu04 li.on .g07 {background-position:-220px -147px !important;}
+.menu04 li.on .g08 {background-position:-220px -167px !important;}
+
+#divLogin {position:absolute;width:248px;height:139px;right:4px;top:-329px;}
+#BeforeLogin {position:relative;width:248px;height:139px;}
+#BeforeLogin .s1 {position:relative;margin:11px 6px 0 2;display:inline-block}
+#BeforeLogin .s1 a, #BeforeLogin .s2 a {font-size:11px;letter-spacing:-1px;}
+#BeforeLogin .s1 strong {font-size:11px;letter-spacing:-1px}
+#BeforeLogin dl {position:absolute;left:0;top:32px;z-index:2}
+#BeforeLogin dt {display:none}
+#BeforeLogin .s2 {padding-left:10px;display:inline-block}
+#BeforeLogin .s2 .ichk {vertical-align:-1px;border:0;margin-left:2px;}
+#BeforeLogin .bt{position:absolute;left:175px;top:31px;width:75px;height:63px;display:block;z-index:10}
+#BeforeLogin .bt span{display:none}
+#BeforeLogin dd {position:relative;height:32px;}
+#BeforeLogin dd input{width:169px;height:26px;padding:7px 0 0 7px;font-size:11px}
+#BeforeLogin .bgnone{background-image:none !important}
+#BeforeLogin .bgon{background-image:none !important}
+#BeforeLogin .link{position:absolute;top:105px;left:0;}
+#BeforeLogin .link a {letter-spacing:0;}
+#BeforeLogin .link span {float:left;padding-right:6px;margin-right:6px;display:inline-block}
+#BeforeLogin .link .l1 {font-weight:bold}
+#BeforeLogin .link .l3 {background:none !important}
+#BeforeLogin #tooltip {position:absolute;width:169px;height:28px;top:25px;left:0;font-size:11px;letter-spacing:-1px;padding:12px 0 0 9px;z-index:2;color:#666;display:none;}
+
+#AfterLogin {position:relative;width:248px;height:139px;}
+#AfterLogin dl {margin:20px 0 0 13px;}
+#AfterLogin dt {height:43px;font-weight:bold}
+#AfterLogin dd {position:relative;height:33px;}
+#AfterLogin dd span {float:left;padding-right:10px;margin-left:10px;display:block}
+#AfterLogin dd .info,#AfterLogin dd .memo {margin:0}
+#AfterLogin dd .cash,#AfterLogin dd .club {background:none !important}
+#AfterLogin dd .cash var {display:inline-block;padding:0 0 0 20px;}
+#AfterLogin dd .cash span {display:none}
+#AfterLogin dd .cash .charge{position:absolute;top:-2px;left:191px;display:inline-block;width:27px;height:16px;}
+#AfterLogin dd .ic{vertical-align:-2px;margin-left:4px;}
+#AfterLogin .bt{position:absolute;background:url(/web/board/game/v/img/main/trans.gif);width:49px;height:18px;top:18px;right:13px;}
+#AfterLogin .bt span{display:none;}
+
+.notice {position:absolute;left:739px;top:-177px;}
+.notice li {height:16px;margin-bottom:5px}
+.notice li a {display:inline-block;margin:3px 0 0 20px;letter-spacing:-1px}
+
+.item {position:absolute;left:738px;top:-141px;}
+.item a {width:248px;height:43px;display:block;}
+.item a span {display:none}
+
+#Footer_Area {position:relative;margin:0 auto ;text-align:center;z-index:3}
+#Footer {position:relative;width:990px;height:130px;margin:0 auto;font:normal 11px dotum;text-align:left;}
+#Footer .ft_logo span {position:absolute;display:none;text-indent:-10000px}
+#Footer .ft_logo span a{display:block;width:100%;height:100%;}
+#Footer .ft_logo span a img{width:100%;border:0;display:block;}
+#Footer .ft_logo .logo1{width:90px;height:29px;left:0;top:41px;display:block;text-indent:0;}
+#Footer .ft_bx_txt{margin:30px 0 0 117px;}
+#Footer .ft_mnu{width:867px;height:19px;border-bottom:1px solid #D6D6D6;}
+#Footer .ft_mnu li{float:left;padding-right:9px;margin-right:9px;background:url(/web/board/game/v/img/main/foot_bar.gif) 100% 1px no-repeat;}
+#Footer .ft_mnu li a{font:normal 11px dotum;color:#4D4D4D;letter-spacing:-1px}
+#Footer .ft_mnu .ft_t1 {font-weight:bold;color:#1C5C9C}
+#Footer .ft_mnu .ft_x{margin:0;padding:0;background:none}
+#Footer .ft_txt {line-height:17px;padding:10px 0 0 0;color:#8B8B8B;}
+#Footer .ft_copy {display:block;font:normal 11px tahoma;color:#8B8B8B;margin-top:4px}
+#FooterGrade {position:absolute;width:206px;height:53px;right:5px;top:55px;}
+#FooterGrade span {display:none;}
+
+.msg {position:absolute;left:738px;top:-497px;}
+.msg table {width:246px;height:102px;background:url(/web/board/game/v/img/main/k_msg.gif) 0 0 no-repeat; }
+.msg table td {text-align:center;font:normal 12px dotum;color:#444444;line-height:18px;letter-spacing:-1px;padding-top:3px}
+.msg table td .t2 {font-weight:bold;color:#FF6600;display:block;margin-top:3px}
+
+.side_left{position:absolute;top:0;left:0;width:50%;height:558px;} 
+.side_left div{position:absolute;top:0;left:-495px;width:100%;height:558px;} 
+.side_right{position:absolute;top:0;right:1px;*right:0;width:50%;height:558px;}
+.side_right div{position:absolute;top:0;left:0;width:100%;height:558px;} 
+
+
+.m_shanghai .side_left div{background:url(/web/board/game/v/img/main/shanghai/bg_left.jpg) right top no-repeat;} 
+.m_shanghai .side_right div{background:url(/web/board/game/v/img/main/shanghai/bg_right.jpg) 495px top no-repeat;} 
+.m_shanghai .menu01 {background:url(/web/board/game/v/img/main/shanghai/menu01_111014.gif) 0 0 no-repeat;}
+.m_shanghai .menu01 .t_pc2 strong{background:url(/web/board/game/v/img/main/shanghai/menu01_pc_111014.gif) 0 0 no-repeat;}
+.m_shanghai .menu02 {background:url(/web/board/game/v/img/main/shanghai/menu02.gif) 0 0 no-repeat;}
+.m_shanghai .menu03 {background:url(/web/board/game/v/img/main/shanghai/menu03.gif) 0 0 no-repeat;}
+.m_shanghai .menu03 .on a {background:url(/web/board/game/v/img/main/shanghai/menu03.gif)}
+.m_shanghai .menu04 p {background:url(/web/board/game/v/img/main/shanghai/menu04.gif) 0 0 no-repeat;}
+.m_shanghai .menu04 ul {background:url(/web/board/game/v/img/main/shanghai/menu04.gif) -110px 0 no-repeat;}
+.m_shanghai .menu04 .on a {background:url(/web/board/game/v/img/main/shanghai/menu04.gif)}
+.m_shanghai a {color:#4C006D}
+.m_shanghai #BeforeLogin {background:url(/web/board/game/v/img/main/shanghai/k_login_before.gif) 0 100% repeat-x;}
+.m_shanghai #BeforeLogin .s1 a, .m_shanghai #BeforeLogin .s2 a {color:#7B00A8;}
+.m_shanghai #BeforeLogin .s1 strong {color:#FFD200;}
+.m_shanghai #BeforeLogin .s2 {background:url(/web/board/game/v/img/main/shanghai/bar01.gif) 0 7px no-repeat}
+.m_shanghai #BeforeLogin .bt {background:url(/web/board/game/v/img/main/shanghai/bt_login.gif) 0 0 no-repeat}
+.m_shanghai #BeforeLogin .link span {background:url(/web/board/game/v/img/main/shanghai/bar02.gif) 100% 1px no-repeat}
+.m_shanghai #BeforeLogin dd input {border:1px solid #B457E0;color:#8E60A4}
+.m_shanghai #BeforeLogin #uid {background:#F4D6FF url(/web/board/game/v/img/main/shanghai/login_k_id.gif) 8px 7px no-repeat}
+.m_shanghai #BeforeLogin #upw {background:#F4D6FF url(/web/board/game/v/img/main/shanghai/login_k_pwd.gif) 8px 7px no-repeat}
+.m_shanghai #BeforeLogin #tooltip {background:url(/web/board/game/v/img/main/shanghai/login_tooltip.gif) 0 0 no-repeat}
+.m_shanghai #BeforeLogin #tooltip strong {color:#6E0098;}
+.m_shanghai #AfterLogin {background:url(/web/board/game/v/img/main/shanghai/k_login_after.gif) 0 0 no-repeat;}
+.m_shanghai #AfterLogin dt {color:#7B00A8}
+.m_shanghai #AfterLogin dd span {color:#4C006D;background:url(/web/board/game/v/img/main/shanghai/bar03.gif) 100% 1px no-repeat;}
+.m_shanghai #AfterLogin dd .cash var, .m_shanghai #AfterLogin dd .memo a {color:#FFD300}
+.m_shanghai .notice li {background:url(/web/board/game/v/img/main/shanghai/ic_notice.gif) 0 0 no-repeat;}
+.m_shanghai .item a {background:url(/web/board/game/v/img/main/shanghai/bt_item.gif) 0 0 no-repeat;}
+.m_shanghai .msg {border:1px solid #A02CC2}
+
+
+.m_assult .side_left div{background:url(/web/board/game/v/img/main/assult/bg_left.jpg) right top no-repeat;} 
+.m_assult .side_right div{background:url(/web/board/game/v/img/main/assult/bg_right.jpg) 495px top no-repeat;} 
+.m_assult .menu01 {background:url(/web/board/game/v/img/main/assult/menu01_111014.gif) 0 0 no-repeat;}
+.m_assult .menu01 .t_pc2 strong{background:url(/web/board/game/v/img/main/assult/menu01_pc_111014.gif) 0 0 no-repeat;}
+.m_assult .menu02 {background:url(/web/board/game/v/img/main/assult/menu02.gif) 0 0 no-repeat;}
+.m_assult .menu03 {background:url(/web/board/game/v/img/main/assult/menu03.gif) 0 0 no-repeat;}
+.m_assult .menu03 .on a {background:url(/web/board/game/v/img/main/assult/menu03.gif)}
+.m_assult .menu04 p {background:url(/web/board/game/v/img/main/assult/menu04.gif) 0 0 no-repeat;}
+.m_assult .menu04 ul {background:url(/web/board/game/v/img/main/assult/menu04.gif) -110px 0 no-repeat;}
+.m_assult .menu04 .on a {background:url(/web/board/game/v/img/main/assult/menu04.gif)}
+.m_assult a {color:#8F250C}
+.m_assult #BeforeLogin {background:url(/web/board/game/v/img/main/assult/k_login_before.gif) 0 100% repeat-x;}
+.m_assult #BeforeLogin .s1 a, .m_assult #BeforeLogin .s2 a {color:#8F250C;}
+.m_assult #BeforeLogin .s1 strong {color:#FF8306;}
+.m_assult #BeforeLogin .s2 {background:url(/web/board/game/v/img/main/assult/bar01.gif) 0 7px no-repeat}
+.m_assult #BeforeLogin .bt {background:url(/web/board/game/v/img/main/assult/bt_login.gif) 0 0 no-repeat}
+.m_assult #BeforeLogin .link span {background:url(/web/board/game/v/img/main/assult/bar02.gif) 100% 1px no-repeat}
+.m_assult #BeforeLogin dd input {border:1px solid #FFB510;color:#F28900}
+.m_assult #BeforeLogin #uid {background:#FFF29C url(/web/board/game/v/img/main/assult/login_k_id.gif) 8px 7px no-repeat}
+.m_assult #BeforeLogin #upw {background:#FFF29C url(/web/board/game/v/img/main/assult/login_k_pwd.gif) 8px 7px no-repeat}
+.m_assult #BeforeLogin #tooltip {background:url(/web/board/game/v/img/main/assult/login_tooltip.gif) 0 0 no-repeat}
+.m_assult #BeforeLogin #tooltip strong {color:#E37201;}
+.m_assult #AfterLogin {background:url(/web/board/game/v/img/main/assult/k_login_after.gif) 0 0 no-repeat;}
+.m_assult #AfterLogin dt {color:#8F250C}
+.m_assult #AfterLogin dd span {color:#8F250C;background:url(/web/board/game/v/img/main/assult/bar03.gif) 100% 1px no-repeat;}
+.m_assult #AfterLogin dd .cash var, .m_assult #AfterLogin dd .memo a {color:#FF8306}
+.m_assult .notice li {background:url(/web/board/game/v/img/main/assult/ic_notice.gif) 0 0 no-repeat;}
+.m_assult .item a {background:url(/web/board/game/v/img/main/assult/bt_item.gif) 0 0 no-repeat;}
+.m_assult .msg {border:1px solid #D1761A}
+
+.m_assult .menu01 .t_charge {width:57px;display:block}
+.m_assult .menu01 .t_user {width:36px;margin-left:17px;}
+.m_assult .menu01 .t_faq {width:20px;margin-left:18px;}
+.m_assult .menu01 .t_pc1 {width:58px;margin-left:18px;}
+.m_assult .menu01 .t_pc2 {width:19px;margin-left:5px;}
+
+
+.m_kkoongda .side_left div{background:url(/web/board/game/v/img/main/kkoongda/bg_left.jpg) right top no-repeat;} 
+.m_kkoongda .side_right div{background:url(/web/board/game/v/img/main/kkoongda/bg_right.jpg) 495px top no-repeat;} 
+.m_kkoongda .menu01 {background:url(/web/board/game/v/img/main/kkoongda/menu01_111014.gif) 0 0 no-repeat;}
+.m_kkoongda .menu01 .t_pc2 strong{background:url(/web/board/game/v/img/main/kkoongda/menu01_pc_111014.gif) 0 0 no-repeat;}
+.m_kkoongda .menu02 {background:url(/web/board/game/v/img/main/kkoongda/menu02.gif) 0 0 no-repeat;}
+.m_kkoongda .menu03 {background:url(/web/board/game/v/img/main/kkoongda/menu03.gif) 0 0 no-repeat;}
+.m_kkoongda .menu03 .on a {background:url(/web/board/game/v/img/main/kkoongda/menu03.gif)}
+.m_kkoongda .menu04 p {background:url(/web/board/game/v/img/main/kkoongda/menu04.gif) 0 0 no-repeat;}
+.m_kkoongda .menu04 ul {background:url(/web/board/game/v/img/main/kkoongda/menu04.gif) -110px 0 no-repeat;}
+.m_kkoongda .menu04 .on a {background:url(/web/board/game/v/img/main/kkoongda/menu04.gif)}
+.m_kkoongda a {color:#004453}
+.m_kkoongda #BeforeLogin {background:url(/web/board/game/v/img/main/kkoongda/k_login_before.gif) 0 100% repeat-x;}
+.m_kkoongda #BeforeLogin .s1 a, .m_kkoongda #BeforeLogin .s2 a {color:#006D79;}
+.m_kkoongda #BeforeLogin .s1 strong {color:#FF446C;}
+.m_kkoongda #BeforeLogin .s2 {background:url(/web/board/game/v/img/main/kkoongda/bar01.gif) 0 7px no-repeat}
+.m_kkoongda #BeforeLogin .bt {background:url(/web/board/game/v/img/main/kkoongda/bt_login.gif) 0 0 no-repeat}
+.m_kkoongda #BeforeLogin .link span {background:url(/web/board/game/v/img/main/kkoongda/bar02.gif) 100% 1px no-repeat}
+.m_kkoongda #BeforeLogin dd input {border:1px solid #00B0C5;color:#29919D}
+.m_kkoongda #BeforeLogin #uid {background:#B3F8FF url(/web/board/game/v/img/main/kkoongda/login_k_id.gif) 8px 7px no-repeat}
+.m_kkoongda #BeforeLogin #upw {background:#B3F8FF url(/web/board/game/v/img/main/kkoongda/login_k_pwd.gif) 8px 7px no-repeat}
+.m_kkoongda #BeforeLogin #tooltip {background:url(/web/board/game/v/img/main/kkoongda/login_tooltip.gif) 0 0 no-repeat}
+.m_kkoongda #BeforeLogin #tooltip strong {color:#007E8C;}
+.m_kkoongda #AfterLogin {background:url(/web/board/game/v/img/main/kkoongda/k_login_after.gif) 0 0 no-repeat;}
+.m_kkoongda #AfterLogin dt {color:#006D79}
+.m_kkoongda #AfterLogin dd span {color:#004453;background:url(/web/board/game/v/img/main/kkoongda/bar03.gif) 100% 1px no-repeat;}
+.m_kkoongda #AfterLogin dd .cash var, .m_kkoongda #AfterLogin dd .memo a {color:#00237B}
+.m_kkoongda .notice li {background:url(/web/board/game/v/img/main/kkoongda/ic_notice.gif) 0 0 no-repeat;}
+.m_kkoongda .item a {background:url(/web/board/game/v/img/main/kkoongda/bt_item.gif) 0 0 no-repeat;}
+.m_kkoongda .msg {border:1px solid #0BA1B0}
+
+.m_kkoongda .menu02 .t_info {width:65px;}
+.m_kkoongda .menu02 .t_community {width:60px;display:block}
+.m_kkoongda .menu02 .t_rank {width:59px;}
+.m_kkoongda .menu02 .t_download {width:64px;}
+
+
+.m_poweral .side_left div{background:url(/web/board/game/v/img/main/poweral/bg_left.jpg) right top no-repeat;} 
+.m_poweral .side_right div{background:url(/web/board/game/v/img/main/poweral/bg_right.jpg) 495px top no-repeat;} 
+.m_poweral .menu01 {background:url(/web/board/game/v/img/main/poweral/menu01_111014.gif) 0 0 no-repeat;}
+.m_poweral .menu01 .t_pc2 strong{background:url(/web/board/game/v/img/main/poweral/menu01_pc_111014.gif) 0 0 no-repeat;}
+.m_poweral .menu02 {background:url(/web/board/game/v/img/main/poweral/menu02.gif) 0 0 no-repeat;}
+.m_poweral .menu03 {background:url(/web/board/game/v/img/main/poweral/menu03.gif) 0 0 no-repeat;}
+.m_poweral .menu03 .on a {background:url(/web/board/game/v/img/main/poweral/menu03.gif)}
+.m_poweral .menu04 p {background:url(/web/board/game/v/img/main/poweral/menu04.gif) 0 0 no-repeat;}
+.m_poweral .menu04 ul {background:url(/web/board/game/v/img/main/poweral/menu04.gif) -110px 0 no-repeat;}
+.m_poweral .menu04 .on a {background:url(/web/board/game/v/img/main/poweral/menu04.gif)}
+.m_poweral a {color:#740000}
+.m_poweral #BeforeLogin {background:url(/web/board/game/v/img/main/poweral/k_login_before.gif) 0 100% repeat-x;}
+.m_poweral #BeforeLogin .s1 a, .m_poweral #BeforeLogin .s2 a {color:#740000;}
+.m_poweral #BeforeLogin .s1 strong {color:#FFE400;}
+.m_poweral #BeforeLogin .s2 {background:url(/web/board/game/v/img/main/poweral/bar01.gif) 0 7px no-repeat}
+.m_poweral #BeforeLogin .bt {background:url(/web/board/game/v/img/main/poweral/bt_login.gif) 0 0 no-repeat}
+.m_poweral #BeforeLogin .link span {background:url(/web/board/game/v/img/main/poweral/bar02.gif) 100% 1px no-repeat}
+.m_poweral #BeforeLogin dd input {border:1px solid #DE5552;color:#B7272C}
+.m_poweral #BeforeLogin #uid {background:#FFD0CE url(/web/board/game/v/img/main/poweral/login_k_id.gif) 8px 7px no-repeat}
+.m_poweral #BeforeLogin #upw {background:#FFD0CE url(/web/board/game/v/img/main/poweral/login_k_pwd.gif) 8px 7px no-repeat}
+.m_poweral #BeforeLogin #tooltip {background:url(/web/board/game/v/img/main/poweral/login_tooltip.gif) 0 0 no-repeat}
+.m_poweral #BeforeLogin #tooltip strong {color:#B7272C;}
+.m_poweral #AfterLogin {background:url(/web/board/game/v/img/main/poweral/k_login_after.gif) 0 0 no-repeat;}
+.m_poweral #AfterLogin dt {color:#740000}
+.m_poweral #AfterLogin dd span {color:#740000;background:url(/web/board/game/v/img/main/poweral/bar03.gif) 100% 1px no-repeat;}
+.m_poweral #AfterLogin dd .cash var, .m_poweral #AfterLogin dd .memo a {color:#FFD300}
+.m_poweral .notice li {background:url(/web/board/game/v/img/main/poweral/ic_notice.gif) 0 0 no-repeat;}
+.m_poweral .item a {background:url(/web/board/game/v/img/main/poweral/bt_item.gif) 0 0 no-repeat;}
+.m_poweral .msg {border:1px solid #E22C2B}
+
+
+
+.m_omok .side_left div{background:url(/web/board/game/v/img/main/omok/bg_left.jpg) right top no-repeat;} 
+.m_omok .side_right div{background:url(/web/board/game/v/img/main/omok/bg_right.jpg) 495px top no-repeat;} 
+.m_omok .menu01 {background:url(/web/board/game/v/img/main/omok/menu01_111014.gif) 0 0 no-repeat;}
+.m_omok .menu01 .t_pc2 strong{background:url(/web/board/game/v/img/main/omok/menu01_pc_111014.gif) 0 0 no-repeat;}
+.m_omok .menu02 {background:url(/web/board/game/v/img/main/omok/menu02.gif) 0 0 no-repeat;}
+.m_omok .menu03 {background:url(/web/board/game/v/img/main/omok/menu03.gif) 0 0 no-repeat;}
+.m_omok .menu03 .on a {background:url(/web/board/game/v/img/main/omok/menu03.gif)}
+.m_omok .menu04 p {background:url(/web/board/game/v/img/main/omok/menu04.gif) 0 0 no-repeat;}
+.m_omok .menu04 ul {background:url(/web/board/game/v/img/main/omok/menu04.gif) -110px 0 no-repeat;}
+.m_omok .menu04 .on a {background:url(/web/board/game/v/img/main/omok/menu04.gif)}
+.m_omok a {color:#0C2B00}
+.m_omok #BeforeLogin {background:url(/web/board/game/v/img/main/omok/k_login_before.gif) 0 100% repeat-x;}
+.m_omok #BeforeLogin .s1 a, .m_omok #BeforeLogin .s2 a {color:#256800;}
+.m_omok #BeforeLogin .s1 strong {color:#FF8306;}
+.m_omok #BeforeLogin .s2 {background:url(/web/board/game/v/img/main/omok/bar01.gif) 0 7px no-repeat}
+.m_omok #BeforeLogin .bt {background:url(/web/board/game/v/img/main/omok/bt_login.gif) 0 0 no-repeat}
+.m_omok #BeforeLogin .link span {background:url(/web/board/game/v/img/main/omok/bar02.gif) 100% 1px no-repeat}
+.m_omok #BeforeLogin dd input {border:1px solid #79B113;color:#659215}
+.m_omok #BeforeLogin #uid {background:#D8FF93 url(/web/board/game/v/img/main/omok/login_k_id.gif) 8px 7px no-repeat}
+.m_omok #BeforeLogin #upw {background:#D8FF93 url(/web/board/game/v/img/main/omok/login_k_pwd.gif) 8px 7px no-repeat}
+.m_omok #BeforeLogin #tooltip {background:url(/web/board/game/v/img/main/omok/login_tooltip.gif) 0 0 no-repeat}
+.m_omok #BeforeLogin #tooltip strong {color:#3F6401;}
+.m_omok #AfterLogin {background:url(/web/board/game/v/img/main/omok/k_login_after.gif) 0 0 no-repeat;}
+.m_omok #AfterLogin dt {color:#256800}
+.m_omok #AfterLogin dd span {color:#0C2B00;background:url(/web/board/game/v/img/main/omok/bar03.gif) 100% 1px no-repeat;}
+.m_omok #AfterLogin dd .cash var, .m_omok #AfterLogin dd .memo a {color:#FF8306}
+.m_omok .notice li {background:url(/web/board/game/v/img/main/omok/ic_notice.gif) 0 0 no-repeat;}
+.m_omok .item a {background:url(/web/board/game/v/img/main/omok/bt_item.gif) 0 0 no-repeat;}
+.m_omok .msg {border:1px solid #52A015}
+
+
+.m_richmarble .side_left div{background:url(/web/board/game/v/img/main/richmarble/bg_left.jpg) right top no-repeat;} 
+.m_richmarble .side_right div{background:url(/web/board/game/v/img/main/richmarble/bg_right.jpg) 495px top no-repeat;} 
+.m_richmarble .menu01 {background:url(/web/board/game/v/img/main/richmarble/menu01_111014.gif) 0 0 no-repeat;}
+.m_richmarble .menu01 .t_pc2 strong{background:url(/web/board/game/v/img/main/richmarble/menu01_pc_111014.gif) 0 0 no-repeat;}
+.m_richmarble .menu02 {background:url(/web/board/game/v/img/main/richmarble/menu02.gif) 0 0 no-repeat;}
+.m_richmarble .menu03 {background:url(/web/board/game/v/img/main/richmarble/menu03.gif) 0 0 no-repeat;}
+.m_richmarble .menu03 .on a {background:url(/web/board/game/v/img/main/richmarble/menu03.gif)}
+.m_richmarble .menu04 p {background:url(/web/board/game/v/img/main/richmarble/menu04.gif) 0 0 no-repeat;}
+.m_richmarble .menu04 ul {background:url(/web/board/game/v/img/main/richmarble/menu04.gif) -110px 0 no-repeat;}
+.m_richmarble .menu04 .on a {background:url(/web/board/game/v/img/main/richmarble/menu04.gif)}
+.m_richmarble a {color:#740026}
+.m_richmarble #BeforeLogin {background:url(/web/board/game/v/img/main/richmarble/k_login_before.gif) 0 100% repeat-x;}
+.m_richmarble #BeforeLogin .s1 a, .m_richmarble #BeforeLogin .s2 a {color:#AF023D;}
+.m_richmarble #BeforeLogin .s1 strong {color:#FFE400;}
+.m_richmarble #BeforeLogin .s2 {background:url(/web/board/game/v/img/main/richmarble/bar01.gif) 0 7px no-repeat}
+.m_richmarble #BeforeLogin .bt {background:url(/web/board/game/v/img/main/richmarble/bt_login.gif) 0 0 no-repeat}
+.m_richmarble #BeforeLogin .link span {background:url(/web/board/game/v/img/main/richmarble/bar02.gif) 100% 1px no-repeat}
+.m_richmarble #BeforeLogin dd input {border:1px solid #D3537D;color:#AA4D6D}
+.m_richmarble #BeforeLogin #uid {background:#FFCDDD url(/web/board/game/v/img/main/richmarble/login_k_id.gif) 8px 7px no-repeat}
+.m_richmarble #BeforeLogin #upw {background:#FFCDDD url(/web/board/game/v/img/main/richmarble/login_k_pwd.gif) 8px 7px no-repeat}
+.m_richmarble #BeforeLogin #tooltip {background:url(/web/board/game/v/img/main/richmarble/login_tooltip.gif) 0 0 no-repeat}
+.m_richmarble #BeforeLogin #tooltip strong {color:#D92764;}
+.m_richmarble #AfterLogin {background:url(/web/board/game/v/img/main/richmarble/k_login_after.gif) 0 0 no-repeat;}
+.m_richmarble #AfterLogin dt {color:#AF023D}
+.m_richmarble #AfterLogin dd span {color:#740026;background:url(/web/board/game/v/img/main/richmarble/bar03.gif) 100% 1px no-repeat;}
+.m_richmarble #AfterLogin dd .cash var, .m_richmarble #AfterLogin dd .memo a {color:#FFD300}
+.m_richmarble .notice li {background:url(/web/board/game/v/img/main/richmarble/ic_notice.gif) 0 0 no-repeat;}
+.m_richmarble .item a {background:url(/web/board/game/v/img/main/richmarble/bt_item.gif) 0 0 no-repeat;}
+.m_richmarble .msg {border:1px solid #CB2D62}
+
+
+.m_shanghai #FooterGrade {background:url(/web/board/game/v/img/main/shanghai/foot_grade.gif) 0 0 no-repeat;}
+.m_kkoongda #FooterGrade {background:url(/web/board/game/v/img/main/kkoongda/foot_grade.gif) 0 0 no-repeat;}
+.m_richmarble #FooterGrade {background:url(/web/board/game/v/img/main/richmarble/foot_grade.gif) 0 0 no-repeat;}
+.m_poweral #FooterGrade {background:url(/web/board/game/v/img/main/poweral/foot_grade_111101.gif) 0 0 no-repeat;}
+.m_assult #FooterGrade {background:url(/web/board/game/v/img/main/assult/foot_grade.gif) 0 0 no-repeat;}
+.m_omok #FooterGrade {background:url(/web/board/game/v/img/main/omok/foot_grade.gif) 0 0 no-repeat;}
